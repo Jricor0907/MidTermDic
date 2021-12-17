@@ -58,6 +58,7 @@ body{
     height: 95%;
     padding-top: 15px;
     /* border: solid red 3px; */
+    overflow: scroll;
 }
 
 .eye{
@@ -114,6 +115,8 @@ border-radius: 5%;
     text-align: right;
     color: white;
 }
+
+
 @media all and (min-width: 800px){
     .main{
         flex: 3;
@@ -136,8 +139,14 @@ border-radius: 5%;
     }
 }
 
-@media all and (min-width: 600px) {
-    .aside {
-        flex: 1;
+@media only all and (max-width: 900px){
+    .Product1{
+        font-size: 5px;
     }
+ /* .add{ font-size: 20px;
+ }
+ .description{
+     font-size: 20px;
+} */
 }
+     
